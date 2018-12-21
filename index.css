@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
     body {
-      background-color:rgb(247, 204, 204);
+      
     }
   }
 #form{
@@ -8,7 +8,7 @@
 }
 
 *{
-     font-family: 'Times New Roman';
+     font-family: 'Papyrus';
     font-size:20px;
    
 }
