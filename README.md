@@ -19,7 +19,17 @@ Batamuriza Chastine
 phone number: +250785102925
 email: batamurizashastine@gmail.com
 
-BDD
+#...BDD
+
++----------------------------+----------+--------------------------------+
+| input                      | output   | description                    |
++----------------------------+----------+--------------------------------+
+| when select 1 question     | 10 marks | the only one answer is correct |
++----------------------------+----------+--------------------------------+
+| when selected 2 questions  | 20 marks | two questions are correct      |
++----------------------------+----------+--------------------------------+
+| all questions are correct  | 40 marks | all you choose are correct     |
++----------------------------+----------+--------------------------------+
 
 
 #...License and copylights...
