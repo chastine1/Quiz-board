@@ -3,6 +3,7 @@
   <head>
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="index.js"></script>
@@ -16,7 +17,7 @@
       
      <h1>Quiz Board</h1>
      <h3>firstly enter your name and email.</h3>
-        <form>
+        <form id="form">
                 <div class="names">
                   names:<input type="text" name="username"><br>
                 </div>
@@ -28,38 +29,40 @@
     
 
     <h3>choose the correct answer:</h3>
+    <div class="chastine">
 
     <p class="bg-success">The Internet is a global network that:</p>
     
      
      <div class="radio">
             <label>
-              <input type="radio" name="flavor" value=" uses the Transaction Coordinator Protocol/Interaction Protocol." checked>
+              <input type="radio" name="chastine" value=" uses the Transaction Coordinator Protocol/Interaction Protocol." checked>
               uses the Transaction Coordinator Protocol/Interaction Protocol.
             </label>
           </div>
      
      <div class="radio">
             <label>
-              <input type="radio" name="flavor" value="chocolate" checked>
+            
+            <input type="radio" name="chastine" value=" uses hardware including switches and routers." checked>
               uses hardware including switches and routers.
             </label>
           </div>
      
      <div class="radio">
             <label>
-              <input type="radio" name="flavor" value="chocolate" checked>
+              <input type="radio" name="chastine" value="is now completely wireless." checked>
               is now completely wireless.
             </label>
           </div>
     
      <div class="radio">
             <label>
-              <input type="radio" name="flavor" value="chocolate" checked>
+              <input type="radio" name="chastine" value="all of the above." checked>
                all of the above.
             </label>
           </div>
-
+     </div>
     <p class="bg-success">The World Wide Web:</p>
     
      
@@ -91,7 +94,7 @@
             </label>
           </div>
 
-    <p class="bg-success">IP addresses are of the form A.B.C.D where:</p>
+ <p class="bg-success">IP addresses are of the form A.B.C.D where:</p>
      
      <div class="radio">
             <label>

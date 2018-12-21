@@ -3,7 +3,9 @@
       background-color:whitesmoke;
     }
   }
-
+#form{
+    -ms-text-autospace: none; 
+}
 
 *{
      font-family: 'Times New Roman', Times, serif;

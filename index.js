@@ -1,4 +1,4 @@
-
+var flavor = $("input:radio[name=chastine]:checked").val();
 
 
         $(document).ready(function() {
