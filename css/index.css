@@ -1,17 +1,14 @@
 @media screen and (min-width: 480px) {
-    body {
-      font-size: small;
-    }
+    *{
+        font-family: 'Papyrus';
+       font-size:20px;}
+    
   }
 #form{
     -ms-text-autospace: none; 
 }
 
-*{
-     font-family: 'Papyrus';
-    font-size:20px;
-   
-}
+
 
 h3{
     border:20 px;
