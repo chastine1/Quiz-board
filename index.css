@@ -8,12 +8,20 @@
 }
 
 *{
-     font-family: 'Times New Roman', Times, serif;
-    font-size:20px,
+     font-family: 'Times New Roman';
+    font-size:20px;
+   
 }
 
 h3{
     border:20 px;
 
 }
+.container{
+    background-image: URL("https://cdn.logosgalaxy.com/wp-content/uploads/2017/06/11%20-%20PNG%20success%20copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 

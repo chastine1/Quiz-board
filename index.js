@@ -7,14 +7,14 @@ var gaz = $("input:radio[name=gaz]:checked").val();
 var tree = $("input:radio[name=tree]:checked").val();
 
 $(document).ready(function() {
-    $("#blanks form").submit(function(event) {
-      var chastine= $("input#chastine").val()
-      var lull= $("input#lull").val()
-      var gaz= $("input#gaz").val()
-      var tree= $("input#tree").val()
+    $(".container").submit(function(event) {
+      var chastine= $("radio#chastine").val()
+      var lull= $("radio#lull").val()
+      var gaz= $("radio#gaz").val()
+      var tree= $("radio#tree").val()
 
-      $(".names").text(namesInput);
-      $(".email").text(emailInput);
+      var names= $(".names").text(namesInput);
+      var email= $(".email").text(emailInput);
       
       
 
