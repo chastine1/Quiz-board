@@ -1,3 +1,5 @@
+var coloo=0
+
 var chastine = $("input:radio[name=chastine]:checked").val();
 
 var lull = $("input:radio[name=lull]:checked").val();
@@ -39,4 +41,3 @@ $(document).ready(function() {
             });
         });
 
-        
