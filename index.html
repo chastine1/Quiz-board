@@ -2,13 +2,13 @@
 <html>
   <head>
 
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../last-project/css/bootstrap.css" rel="stylesheet" type="text/css">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    
+    <script src="../last-project/js/jquery-3.3.1.min.js"></script>
+    <script src="../last-project/js/index.js"></script>
     <link rel="icon" type="image/ico" href="https://media.cargocollective.com/1/12/400546/headerimg/Stech-Design-Logo-2.jpg" />
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="../last-project/css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Quiz Board</title>
   </head>
@@ -19,7 +19,7 @@
      <div class="container">
      <div class="well">
      <h3>firstly enter your name and email.</h3>
-        <form id="form">
+        <form id="test">
                 <div class="names">
                   names:<input type="text" name="username"><br>
                 </div>
@@ -30,154 +30,115 @@
      
     
 
-    <h3>choose the correct answer:</h3>
-    <div class="chastine">
-
-    <p >The Internet is a global network that:</p>
     
-     
-     <div class="radio">
+    <header>
+        <h1>QUIZ BOARD</h1>
+ 
+    </header>
+    <div id = "instructions">
+        <h2>Instructions</h2>
+        <ul>
+            <li>Click the button corresponding to the best answer for each of the questions.</li>
+            <li>If you want to change an answer, simply click the button for your new choice</li>
+            <li>When you are finished, the "Submit" button at the end of the quiz will calculate your score (from 000 to 100).</li>
+        </ul>
+    </div>
+    <form id ="test">
+     <div id="question1">
+            <label for="chastine">1.Which of the following is correct about Bootstrap?</label>
+ 
+ 
+        <div>
             <label>
-              <input type="radio" name="chastine" value=" uses the Transaction Coordinator Protocol/Interaction Protocol." checked>
-              uses the Transaction Coordinator Protocol/Interaction Protocol.
-            </label>
-          </div>
-     
-     <div class="radio">
+            <input type="radio" name="chastine" value="0">Bootstrap is a sleek, intuitive, and powerful, mobile first front-end framework for faster and easier web development.</label>
+        </div>
+        <div>
             <label>
-            
-            <input type="radio" name="chastine" value=" uses hardware including switches and routers." checked>
-              uses hardware including switches and routers.
-            </label>
-          </div>
-     
-     <div class="radio">
+            <input type="radio" name="chastine" value="0">It uses HTML, CSS and Javascript</label>
+        </div>
+        <div>
             <label>
-              <input type="radio" name="chastine" value="is now completely wireless." checked>
-              is now completely wireless.
-            </label>
-          </div>
-    
-     <div class="radio">
+            <input type="radio" name="chastine" value="0"> Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter</label>
+        </div>
+        <div>
             <label>
-              <input type="radio" name="chastine" value="all of the above." checked>
-               all of the above.
-            </label>
-          </div>
+            <input type="radio"  name="chastine" value="20">All of the above </label>
+        </div>
      </div>
-     <div class="lull">
-    <p >The World Wide Web:</p>
-    
-     
-     <div class="radio">
+ 
+     <div id="question2">
+            <label for="lull">2. Which of the following class applies the hover color to a particular row or cell of a table?</label>
+ 
+        <div>
             <label>
-              <input type="radio" name="lull" value=" was created by Tim Berners-Lee and Stephen Hawking." checked>
-              was created by Tim Berners-Lee and Stephen Hawking.
-            </label>
-          </div>
-     
-     <div class="radio">
-            <label>
-              <input type="radio" name="lull" value="was inspired by a trip to an insectarium." checked>
-              was inspired by a trip to an insectarium.
-            </label>
-          </div>
-     
-     <div class="radio">
-            <label>
-              <input type="radio" name="lull" value="often uses the HyperText Transfer Protocol." checked>
-              often uses the HyperText Transfer Protocol.
-            </label>
-          </div>
-    
-     <div class="radio">
-            <label>
-              <input type="radio" name="lull" value="none of the above." checked>
-               none of the above.
-            </label>
-          </div>
+            <input type="radio"  name="lull" value="20">1.active</label>
         </div>
-        <div class="gaz">
- <p>IP addresses are of the form A.B.C.D where:</p>
-     
-     <div class="radio">
+        <div>
             <label>
-              <input type="radio" name="gaz" value="A is a protocol." checked>
-              A is a protocol.
-            </label>
-          </div>
-     
-      <div class="radio">
-            <label>
-              <input type="radio" name="gaz" value="D represents a specific machine." checked>
-               D represents a specific machine.
-            </label>
-          </div>
-      
-      <div class="radio">
-            <label>
-              <input type="radio" name="gaz" value="B and C are regions and cities." checked>
-              B and C are regions and cities.
-            </label>
-          </div>
-     
-      <div class="radio">
-            <label>
-              <input type="radio" name="gaz" value=" A, B, C & D are all random numbers." checked>
-               A, B, C & D are all random numbers.
-            </label>
-          </div>
+            <input type="radio" name="lull" value="0">2.success</label>
         </div>
-        <div class="tree">
-    <p>Which of the following is not true about DNS and IP addresses?</p>
-     
-     <div class="radio">
+        <div>
             <label>
-              <input type="radio" name="tree" value="a DNS server translates domain names into IP addresses." checked>
-              a DNS server translates domain names into IP addresses.
-            </label>
-          </div>
-     
-     <div class="radio">
+            <input type="radio" name="lull" value="0">3.warning</label>
+        </div>
+        <div>
             <label>
-              <input type="radio" name="tree" value=" there are 13 root DNS servers worldwide." checked>
-              there are 13 root DNS servers worldwide.
-            </label>
-          </div>
-     
-     <div class="radio">
-            <label>
-              <input type="radio" name="tree" value="IP addresses are assigned to machines." checked>
-              IP addresses are assigned to machines.
-            </label>
-          </div>
+            <input type="radio"  name="lull" value="0">4.danger</label>
+        </div>
+    </div>
     
-     <div class="radio">
-            <label>
-              <input type="radio" name="tree" value="each domain name has one IP address and vice-versa." checked>
-              each domain name has one IP address and vice-versa.
-            </label>
-          </div>
+   
+<div id= "question3">
 
-        </div>
+  <label for="gaz">3.Which of the following bootstrap style of button represents a contextual button for informational alert messages?</label>
+  <div>
+    <label>
+    <input type="radio" name="gaz" value="0">1. .btn</label>
+</div>
+<div>
+    <label>
+    <input type="radio"  name="gaz" value="0">2. .btn-primary</label>
+</div>
+<div>
+    <label>
+    <input type="radio"  name="gaz" value="0">3. .btn-success</label>
+</div>
+<div>
+    <label>
+    <input type="radio" name="gaz" value="20">3. .btn-info</label>
+</div>
+</div>
+<div id= "question4">
 
-        <button type="submit" class="btn-success">Submit</button>
-          
+<label for="tree">4.Which of the following is correct about bootstrap media objects?</label>
+<div>
+  <label>
+  <input type="radio"  name="tree" value="0">1.These are abstract object styles for building various types of components (like blog comments, Tweets, etc.)
+      that feature a left-aligned or right-aligned image alongside the textual content.</label>
+</div>
+<div>
+  <label>
+  <input type="radio"  name="tree" value="0">2.The goal of the media object is to make the code for developing these blocks of information drastically shorter</label>
+</div>
+<div>
+  <label>
+  <input type="radio" name="tree" value="20">3. Both of the above. </label>
+</div>
+<div>
+  <label>
+  <input type="radio" name="tree" value="0">4.None of the above.</label>
+</div>
+</div>
+<div class="quiz-buttons">
+    <button class="bg-success" type="submit" name="button">SCORE</button>
 
-   </div>
-  </form>
-  <!--<div class="aswers- hidden">
-      <h4>The Internet is a global network that:</h4>
-      <p>uses hardware including switches and routers.</p>
+  </div>
+  <div class="final">
+    <span id="display">Your score is:0</span>
+  </div>
 
-      <h4>The World Wide Web:</h4>
-      <p>was inspired by a trip to an insectarium.</p>
-
-      <h4>IP addresses are of the form A.B.C.D where:</h4>
-      <p>B and C are regions and cities.</p>
-
-      <h4>Which of the following is not true about DNS and IP addresses?</h4>
-      <p>IP addresses are assigned to machines</p>
-  </div>-->
-  </body>
+</form>
+</body>
 </html>
+ 
+ 
